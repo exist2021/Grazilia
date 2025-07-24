@@ -1,8 +1,8 @@
 /* General Styles */
 body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
-    background-color: #e9f2f2;
+    background-color: #F5F5F5;
 }
 
 a {
@@ -19,9 +19,11 @@ ul {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2c5d5c;
+    background-color: #82a0a0;
     color: #fff;
     border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 /* Header */
@@ -77,31 +79,32 @@ nav a {
 }
 
 .about-me-image img {
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
 }
 
 .about-me-text {
     flex: 1;
     padding-left: 50px;
-    background-color: #d8e6e6;
-    padding: 30px;
+    background-color: #E9F2F2;
+    padding: 50px;
     border-radius: 10px;
     position: relative;
-    left: -100px;
+    left: -150px;
+    top: 50px;
 }
 
 /* My Evolution */
 .my-evolution {
     padding: 50px;
-    background-color: #c7dada;
+    background-color: #D8E6E6;
     text-align: center;
 }
 
 /* My Offerings */
 .my-offerings {
     padding: 50px;
-    background-color: #e9f2f2;
+    background-color: #F5F5F5;
     text-align: center;
 }
 
@@ -110,7 +113,7 @@ nav a {
     justify-content: space-between;
     margin-top: 30px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
 }
 
 .offering {
@@ -127,10 +130,11 @@ nav a {
 .follow-me {
     padding: 50px;
     text-align: center;
+    background-color: #E9F2F2;
 }
 
 .follow-me-image {
-    width: 50%;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -140,14 +144,18 @@ nav a {
 }
 
 .follow-me-links {
-    background-color: #2c5d5c;
+    background-color: #82a0a0;
     color: #fff;
     padding: 30px;
     max-width: 500px;
-    margin: -50px auto 0 auto;
+    margin: -100px auto 0 auto;
     position: relative;
     z-index: 1;
     border-radius: 10px;
+}
+
+.follow-me-links h2 {
+    font-family: 'Playfair Display', serif;
 }
 
 .follow-me-links ul {
