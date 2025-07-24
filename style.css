@@ -216,6 +216,14 @@ footer {
 
 /* Tablet Styles */
 @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     .about-me {
         flex-direction: column;
         text-align: center;
