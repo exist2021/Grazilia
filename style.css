@@ -253,8 +253,31 @@ footer {
 
 /* Phone Styles */
 @media (max-width: 480px) {
-    nav ul {
+    .nav-links {
         display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px;
     }
 
     .about-me-text {
