@@ -213,3 +213,55 @@ footer {
     margin-top: 30px;
     text-align: center;
 }
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me-text {
+        left: 0;
+        top: -50px;
+    }
+
+    .offerings {
+        flex-direction: column;
+    }
+
+    .offering {
+        margin-bottom: 20px;
+    }
+
+    .follow-me-image {
+        width: 80%;
+    }
+
+    .follow-me-links {
+        width: 80%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        margin-bottom: 20px;
+    }
+}
+
+/* Phone Styles */
+@media (max-width: 480px) {
+    nav ul {
+        display: none;
+    }
+
+    .about-me-text {
+        padding: 20px;
+    }
+
+    .follow-me-links {
+        margin-top: -50px;
+    }
+}
