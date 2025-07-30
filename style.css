@@ -295,4 +295,8 @@ footer {
     .follow-me-links {
         margin-top: -50px;
     }
+
+    .offering {
+        padding: 10px;
+    }
 }
