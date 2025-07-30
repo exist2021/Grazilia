@@ -299,4 +299,8 @@ footer {
     .offering {
         padding: 10px;
     }
+
+    footer {
+        padding: 20px;
+    }
 }
